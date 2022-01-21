@@ -1,0 +1,150 @@
+body {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 100%;
+    font-family: arial;
+    background-color: #edf2f7;
+}
+
+header nav {
+    background: rgb(250, 250, 250);
+    padding: 8px 16px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    box-shadow: 0 0 8px 0 rgb(222, 222, 222);
+    min-width: 960px;
+}
+
+nav {
+    font-size: 22px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+li {
+    margin: 0 12px;
+}
+
+.nav-buttons a,
+.nav-buttons a:hover {
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 4px;
+    padding: 0.25rem 1rem;
+    background: white;
+    color: gray;
+    text-align: center;
+    user-select: none;
+}
+
+.nav-buttons a:hover {
+    box-shadow: 0 0 5px 2px rgb(65, 114, 238);
+}
+
+header div {
+    text-align: center;
+}
+
+header div,
+.card-deck,
+footer {
+    background-color: #fff;
+    margin: 40px auto;
+    width: 960px;
+}
+
+h1,
+span {
+    color: #63b3ed;
+}
+
+h1 {
+    font-size: 125px;
+}
+
+div h2 {
+    color: #8594ad;
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
+.card-deck h2,
+ul {
+    text-align: center;
+}
+
+li {
+    color: #68778d;
+    font-size: 18px;
+    padding: 16px 0;
+}
+
+.card-deck ul li:last-child {
+    padding-bottom: 32px;
+}
+
+.hire-btn {
+    padding: 12px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hire-btn:link,
+.hire-btn:visited {
+    background-color: #fff;
+    color: #68778d;
+    border: solid 2px #63b3ed;
+}
+
+.hire-btn:hover,
+.hire-btn:active {
+    background-color: #63b3ed;
+    color: #fff;
+}
+
+.card-deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #edf2f7;
+}
+
+.card-deck section {
+    width: 300px;
+    background-color: #fff;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 48px;
+    line-height: 48px;
+    text-indent: 32px;
+}
+
+footer p {
+    font-style: italic;
+    color: #68778d;
+}
+
+/*   --- Navigational behaviours ---   */
+
+/* unvisited & visited links */
+a:link,
+a:visited {
+    color: #68778d;
+}
+
+/* mouse over link & selected links*/
+a:hover,
+a:active {
+    color: #000;
+}
